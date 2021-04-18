@@ -222,7 +222,7 @@
                                    <!---兑换比例
                                     <span id="oneTokensPerEthDiv10"></span>
                                    --->
-                                    <span id="#">2000</span>
+                                    <span id="oneTokensPerEth">2000</span>
                                     SRCT</h4>
                             </div>
                             <p class="cst_description S_cbpara_bb37b759">
@@ -2458,13 +2458,13 @@
                 return parseInt(!$("#amount").val() || $("#amount").val() == "" ? 0 : $("#amount").val())
             };
             $("#ic-input5").click(function () {
-                $("#amount").val(10)
+                $("#amount").val(1)
             });
             $("#ic-input30").click(function () {
-                $("#amount").val(50)
+                $("#amount").val(5)
             });
             $("#ic-input50").click(function () {
-                $("#amount").val(100)
+                $("#amount").val(10)
             });
             $(".buywitheth-cj").click(function () {
                 if (!checkAll()) {
